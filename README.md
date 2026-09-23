@@ -17,7 +17,7 @@ Open `index.html` directly in a modern browser. The page loads the public playli
 
 ## GitHub Pages
 
-This repository is a static site. Publish the root of the default branch with GitHub Pages. `.nojekyll` keeps GitHub Pages from applying Jekyll processing.
+This repository is a static site. To enable the public site, open the repository’s **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, and save. The site will then be available at `https://jyu001.github.io/iptv/`. `.nojekyll` keeps GitHub Pages from applying Jekyll processing.
 
 Stream availability is controlled by the upstream providers and may vary by location or time. The page does not host or redistribute the streams.
 
