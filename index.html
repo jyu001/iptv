@@ -26,6 +26,7 @@
       body { overflow:auto; min-height:100dvh; padding-bottom:env(safe-area-inset-bottom); }
       .shell { width:100%; height:auto; min-height:100dvh; padding:12px 12px calc(16px + env(safe-area-inset-bottom)); }
       header { padding:4px 2px 12px; }
+      .source { display:none; }
       main { display:flex; flex-direction:column; gap:12px; min-height:0; }
       .viewer { order:0; height:auto; min-height:0; overflow:visible; }
       .stage { flex:none; aspect-ratio:16/9; min-height:0; }
@@ -37,9 +38,9 @@
       .now p { max-width:44vw; font-size:11px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
       .icon-btn { width:44px; height:44px; }
       .library { order:1; height:auto; min-height:0; overflow:visible; }
-      .library-head { padding:15px 14px 12px; }
-      .library-head h2 { margin-bottom:10px; font-size:20px; }
-      .quick-links { display:flex; gap:8px; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:none; margin:0 -14px 10px; padding:0 14px 3px; scroll-snap-type:x proximity; }
+      .library-head { padding:11px 12px 8px; }
+      .library-head h2 { margin-bottom:6px; font-size:20px; }
+      .quick-links { display:flex; gap:8px; overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:none; margin:0 -12px 7px; padding:0 12px 2px; scroll-snap-type:x proximity; }
       .quick-links::-webkit-scrollbar { display:none; }
       .quick-link { flex:0 0 auto; min-height:44px; padding:10px 13px; scroll-snap-align:start; white-space:nowrap; }
       .quick-link small { display:none; }
@@ -47,8 +48,8 @@
       .nav-tools label { display:flex; flex-direction:column; gap:4px; min-width:0; color:var(--muted); font-size:10px; }
       .nav-tools .filter { width:100%; min-height:44px; padding:8px; font-size:13px; }
       .nav-tools #back { grid-column:1/-1; min-height:44px; }
-      .search { min-height:46px; }
-      .meta { padding:0 14px 10px; }
+      .search { min-height:44px; }
+      .meta { padding:0 12px 8px; }
       .channel-list { overflow:visible; border-radius:0 0 16px 16px; }
       .channel,.nav-item { padding:9px 10px; min-height:64px; gap:9px; }
       .channel .availability { font-size:9px; }
