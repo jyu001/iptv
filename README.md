@@ -9,7 +9,7 @@ A standalone GitHub Pages IPTV browser built around public streams curated by [i
 - Popularity-first sorting, recent-channel ordering, and right-click move-to-top/bottom controls.
 - Persistent playback History for channels that successfully played.
 - Independent scrolling for the channel library and player panel.
-- CCTV and selected Hong Kong/Taiwan/Phoenix channels can use alternate reference players when their public playlist source is unavailable.
+- Every channel in the Chinese quick group has an IPTV345 player fallback after its public playlist sources fail or play audio without video, including Hunan TV. Some regional channels use the closest IPTV345 feed, such as TVBS HD for TVBS Asia and domestic Dragon TV for Dragon TV International.
 
 ## Run locally
 
@@ -20,4 +20,3 @@ Open `index.html` directly in a modern browser. The page loads the public playli
 This repository is a static site. To enable the public site, open the repository’s **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, and save. The site will then be available at `https://jyu001.github.io/iptv/`. `.nojekyll` keeps GitHub Pages from applying Jekyll processing.
 
 Stream availability is controlled by the upstream providers and may vary by location or time. The page does not host or redistribute the streams.
-
