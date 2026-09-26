@@ -12,7 +12,7 @@ A standalone GitHub Pages IPTV browser built around public streams curated by [i
 - Popularity-first sorting, recent-channel ordering, and right-click move-to-top/bottom controls.
 - Persistent playback History for channels that successfully played.
 - Remembers each channel’s last working stream and tries it first on the next play.
-- Offers official viewer links when Disney Channel, National Geographic, Mei Ah, Phoenix, or HBO streams fail.
+- Offers official viewer links when Disney Channel, National Geographic, Mei Ah, Phoenix, FOX Sports 1, or HBO streams fail; skips HTTP HLS manifests on HTTPS pages that browsers block as mixed content.
 - Independent scrolling for the channel library and player panel.
 - Every channel in the Chinese quick group has an IPTV345 player fallback after its public playlist sources fail or play audio without video, including Hunan TV. Some regional channels use the closest IPTV345 feed, such as TVBS HD for TVBS Asia and domestic Dragon TV for Dragon TV International.
 
