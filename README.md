@@ -5,10 +5,12 @@ A standalone GitHub Pages IPTV browser built around public streams curated by [i
 ## Features
 
 - Browse channels by country or region.
+- Curated quick groups are ranked by quality and source popularity; most show up to six, News keeps up to five, and Sports keeps up to eight, including CCTV-5 and CCTV-5+. Chinese keeps its six ranked picks plus CCTV-5 and CCTV-5+; Movies keeps its six ranked picks plus CCTV-6.
 - Save channels to a persistent Favorites group from the player.
 - Chinese, Kids, Sports, Movies, News, and Documentary quick groups.
 - Popularity-first sorting, recent-channel ordering, and right-click move-to-top/bottom controls.
 - Persistent playback History for channels that successfully played.
+- Remembers each channel’s last working stream and tries it first on the next play.
 - Independent scrolling for the channel library and player panel.
 - Every channel in the Chinese quick group has an IPTV345 player fallback after its public playlist sources fail or play audio without video, including Hunan TV. Some regional channels use the closest IPTV345 feed, such as TVBS HD for TVBS Asia and domestic Dragon TV for Dragon TV International.
 
