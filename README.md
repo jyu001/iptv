@@ -5,6 +5,7 @@ A standalone GitHub Pages IPTV browser built around public streams curated by [i
 ## Features
 
 - Browse channels by country or region.
+- Save channels to a persistent Favorites group from the player.
 - Chinese, Kids, Sports, Movies, News, and Documentary quick groups.
 - Popularity-first sorting, recent-channel ordering, and right-click move-to-top/bottom controls.
 - Persistent playback History for channels that successfully played.
